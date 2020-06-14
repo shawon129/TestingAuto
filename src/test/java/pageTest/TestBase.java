@@ -33,7 +33,7 @@ public class TestBase {
 		
 		driver.get("https://www.dell.com/en-us");
 	}
-//	@AfterSuite
+	@AfterSuite
 	public void tearDownBrowser() {
 		driver.quit();
 	}

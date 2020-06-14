@@ -16,7 +16,6 @@ public class SignInPageActions {
 		signInPageLocators = new SignInPageLocators();
 		PageFactory.initElements(TestBase.getDriver(), signInPageLocators);
 	}
-
 	
 	public void provideSignInInput(String email) {
 		WebDriverWait wait = new WebDriverWait(TestBase.getDriver(), 20);

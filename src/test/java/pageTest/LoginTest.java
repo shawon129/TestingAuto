@@ -3,6 +3,8 @@ package pageTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import util.ExcelUtil;
+
 public class LoginTest extends TestBase {
 
 	
@@ -18,7 +20,7 @@ public class LoginTest extends TestBase {
 	@DataProvider(name="data")
 	public Object[][] testData(){
 		
-		return new Object[][] {{"expample@gmail.com"}, {"2nd@mail.com"}};
+		return new Object[][] { {"expample@gmail.com"}, {"2nd@mail.com"} };
 	}
 
 }

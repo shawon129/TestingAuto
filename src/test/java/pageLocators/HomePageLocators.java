@@ -10,5 +10,5 @@ public class HomePageLocators {
 
 	@FindBy(xpath="//a[text()='Sign In']")
 	public WebElement signInLink;
-	
+		
 }

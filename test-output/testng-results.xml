@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19495" started-at="2020-06-13T19:42:56Z" finished-at="2020-06-13T19:43:15Z">
+  <suite name="Suite" duration-ms="17312" started-at="2020-06-14T21:31:06Z" finished-at="2020-06-14T21:31:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19495" started-at="2020-06-13T19:42:56Z" finished-at="2020-06-13T19:43:15Z">
+    <test name="Test" duration-ms="17312" started-at="2020-06-14T21:31:06Z" finished-at="2020-06-14T21:31:24Z">
       <class name="pageTest.LoginTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:pageTest.LoginTest@59fa1d9b]" name="openBrowser" is-config="true" duration-ms="16437" started-at="2020-06-13T19:42:39Z" finished-at="2020-06-13T19:42:56Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:pageTest.LoginTest@28d25987]" name="openBrowser" is-config="true" duration-ms="15396" started-at="2020-06-14T21:30:51Z" finished-at="2020-06-14T21:31:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="validateSignIn(java.lang.String)[pri:0, instance:pageTest.LoginTest@59fa1d9b]" name="validateSignIn" duration-ms="10005" started-at="2020-06-13T19:42:56Z" data-provider="data" finished-at="2020-06-13T19:43:06Z">
+        <test-method status="PASS" signature="validateSignIn(java.lang.String)[pri:0, instance:pageTest.LoginTest@28d25987]" name="validateSignIn" duration-ms="8886" started-at="2020-06-14T21:31:06Z" data-provider="data" finished-at="2020-06-14T21:31:15Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignIn -->
-        <test-method status="PASS" signature="validateSignIn(java.lang.String)[pri:0, instance:pageTest.LoginTest@59fa1d9b]" name="validateSignIn" duration-ms="9448" started-at="2020-06-13T19:43:06Z" data-provider="data" finished-at="2020-06-13T19:43:15Z">
+        <test-method status="PASS" signature="validateSignIn(java.lang.String)[pri:0, instance:pageTest.LoginTest@28d25987]" name="validateSignIn" duration-ms="8387" started-at="2020-06-14T21:31:15Z" data-provider="data" finished-at="2020-06-14T21:31:24Z">
           <params>
             <param index="0">
               <value>
@@ -33,6 +33,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignIn -->
+        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:pageTest.LoginTest@28d25987]" name="tearDownBrowser" is-config="true" duration-ms="1765" started-at="2020-06-14T21:31:24Z" finished-at="2020-06-14T21:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
       </class> <!-- pageTest.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

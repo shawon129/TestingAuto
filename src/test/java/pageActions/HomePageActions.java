@@ -7,8 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pageLocators.HomePageLocators;
 import pageTest.TestBase;
 
-public class HomePageActions {
-	
+public class HomePageActions {	
 	
 	HomePageLocators homePageLocators = null;
 	
